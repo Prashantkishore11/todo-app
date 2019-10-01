@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'to do list:';
   todos=[
     {
-      label:"dO assignment",
+      label :"do assignment",
       done:false,
       priority: 3
     },
@@ -24,7 +24,7 @@ export class AppComponent {
     priority: 5
   },
    {
-    label: "ARTificial MArks",
+    label: "Video Game",
     done: true,
     priority: 2
   },
